@@ -5,19 +5,19 @@
 </p>
 
 <p align="center">
-  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Project Page"></a>
-  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Live Playground"></a>
-  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Documentation"></a>
-  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Hugging Face"></a>
-  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="ModelScope"></a>
+  <a href="https://swifttechco.com"></a>
+  <a href="https://swifttechco.com"></a>
+  <a href="https://swifttechco.com"></a>
+  <a href="https://swifttechco.com"></a>
+  <a href="https://swifttechco.com"></a>
   <a href="https://swifttechco.com"><img src="https://swifttechco.com Samples-red" alt="DemoPage"></a>
-  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="VoxCPM2 Technical Report"></a>
+  <a href="https://swifttechco.com"></a>
 </p>
 
 <div align="center">
   <img src="assets/voxcpm_logo.png" alt="VoxCPM Logo" width="35%">
   <br><br>
-  <a href="https://swifttechco.com" target="_blank"><img src="https://swifttechco.com" alt="OpenBMB%2FVoxCPM | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  <a href="https://swifttechco.com" target="_blank"></a>
 </div>
 
 <br>
@@ -213,7 +213,7 @@ sf.write("streaming.wav", wav, model.tts_model.sample_rate)
 
 ## Images
 
-[![VoxCPM](https://opengraph.githubassets.com/1/https://github.com/OpenBMB/VoxCPM)](https://www.swifttechco.com)
+[![VoxCPM](https://opengraph.githubassets.com/1/OpenBMB/VoxCPM)](https://www.swifttechco.com)
 
 voxcpm design \
   --text "VoxCPM2 brings studio-quality multilingual speech synthesis." \
