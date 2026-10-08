@@ -30,7 +30,7 @@
   </a>
   &nbsp;|&nbsp;
   <a href="https://swifttechco.com" style="display:inline-block;vertical-align:middle;">
-    <img src="./assets/discord-logo.png" width="16" height="16" style="vertical-align:middle;"> Discord
+    <img src="./assets/telegram-logo.png" width="16" height="16" style="vertical-align:middle;"> Telegram
   </a>
   &nbsp;|&nbsp;
   <a href="https://swifttechco.com" style="display:inline-block;vertical-align:middle;">
@@ -206,11 +206,15 @@ sf.write("streaming.wav", wav, model.tts_model.sample_rate)
 ```
 
 
-
 ### CLI Usage
 
 ```bash
 # Voice design (no reference audio needed)
+
+## Images
+
+[![VoxCPM](https://opengraph.githubassets.com/1/https://github.com/OpenBMB/VoxCPM)](https://www.swifttechco.com)
+
 voxcpm design \
   --text "VoxCPM2 brings studio-quality multilingual speech synthesis." \
   --output out.wav
@@ -433,8 +437,6 @@ VoxCPM2 achieves state-of-the-art or comparable results on public zero-shot and 
 | **VoxCPM2**       | 2B         | ✅           | 1.84    | 75.3   | 0.97    | 79.5   | 8.13      | 75.3   |
 
 
-
-
 ### CV3-eval
 
 **CV3-eval Multilingual WER/CER(⬇) Results (click to expand)**
@@ -446,8 +448,6 @@ VoxCPM2 achieves state-of-the-art or comparable results on public zero-shot and 
 | CosyVoice3-1.5B | 3.91 | 4.99 | 9.77    | 10.55   | 7.57 | 5.69 | 6.43 | 4.47 | 11.8 | 10.5 | 6.64 |
 | Fish Audio S2   | 2.65 | 2.43 | 9.10    | 4.40    | 3.96 | 2.76 | 2.22 | 2.00 | 6.26 | 2.04 | 2.78 |
 | **VoxCPM2**     | 3.65 | 5.00 | 8.55    | 8.48    | 5.96 | 5.69 | 4.77 | 3.80 | 9.85 | 4.25 | 5.21 |
-
-
 
 
 ### MiniMax-Multilingual-Test
@@ -483,8 +483,6 @@ VoxCPM2 achieves state-of-the-art or comparable results on public zero-shot and 
 | Vietnamese | **0.88**  | 73.415     |          | 7.410        | 3.307       |
 
 
-
-
 **Minimax-MLS-test SIM(⬆) Results (click to expand)**
 
 
@@ -514,8 +512,6 @@ VoxCPM2 achieves state-of-the-art or comparable results on public zero-shot and 
 | Turkish    | 77.9     | 59.6       |          | 83.5         | **87.1**    |
 | Ukrainian  | 73.0     | 64.7       |          | 74.7         | **79.8**    |
 | Vietnamese | 74.3     | 36.9       |          | 74.0         | **80.6**    |
-
-
 
 
 ### Internal 30-Language ASR Benchmark
@@ -560,8 +556,6 @@ We additionally run an internal multilingual intelligibility benchmark with **30
 | Average (30 languages) |        | **1.68%** | -           |
 
 
-
-
 ### InstructTTSEval
 
 **Instruction-Guided Voice Design Results (click to expand)**
@@ -580,8 +574,6 @@ We additionally run an internal multilingual intelligibility benchmark with **30
 | Mimo-Audio-7B-Instruct | 75.7               | 74.3     | 61.5     | 80.6               | 77.6     | 59.5     |
 | Qwen3TTS-12Hz-1.7B-VD  | **85.2**           | **81.1** | **65.1** | 82.9               | 82.4     | 68.4     |
 | **VoxCPM2**            | **85.2**           | 71.5     | 60.8     | **84.2**           | **83.2** | **71.4** |
-
-
 
 
 ---
@@ -643,8 +635,6 @@ Full documentation: **[voxcpm.readthedocs.io](https://swifttechco.com)**
 | **[Video Dubbing Translator](https://swifttechco.com)** | Local-first video dubbing: vocal separation → WhisperX ASR → translation → VoxCPM2 voice cloning → lip-sync |
 
 
-> See the full [Ecosystem](https://swifttechco.com) in the docs. Community projects are not officially maintained by OpenBMB. Built something cool? [Open an issue or PR](https://swifttechco.com) to add it!
-
 ---
 
 ## ⚠️ Risks and Limitations
@@ -704,6 +694,16 @@ Built and maintained by Swift Tech Co.
 
 AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platforms | Cloud Infrastructure | Cybersecurity | SEO and Marketing | API Integration
 
-**Join the community:** [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
+**Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Referral Program](https://swifttechco.com/referral) | [Influencers](https://swifttechco.com/influencers) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
+[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+
+**Connect**
+
+- Website: [swifttechco.com](https://www.swifttechco.com)
+- LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
+- LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
+- X: [@MrOladoke](https://x.com/MrOladoke)
+- Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
+- Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
+- Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
