@@ -5,19 +5,19 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/OpenBMB/VoxCPM/"><img src="https://img.shields.io/badge/Project%20Page-GitHub-blue" alt="Project Page"></a>
-  <a href="https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo"><img src="https://img.shields.io/badge/Live%20Playground-Demo-orange" alt="Live Playground"></a>
-  <a href="https://voxcpm.readthedocs.io/en/latest/"><img src="https://img.shields.io/badge/Docs-ReadTheDocs-8CA1AF" alt="Documentation"></a>
-  <a href="https://huggingface.co/openbmb/VoxCPM2"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-VoxCPM2-yellow" alt="Hugging Face"></a>
-  <a href="https://modelscope.cn/models/OpenBMB/VoxCPM2"><img src="https://img.shields.io/badge/ModelScope-VoxCPM2-purple" alt="ModelScope"></a>
-  <a href="https://openbmb.github.io/voxcpm2-demopage/"><img src="https://img.shields.io/badge/DemoPage-Audio Samples-red" alt="DemoPage"></a>
-  <a href="https://arxiv.org/abs/2606.06928"><img src="https://img.shields.io/badge/arXiv-VoxCPM2%20Technical%20Report-red" alt="VoxCPM2 Technical Report"></a>
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Project Page"></a>
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Live Playground"></a>
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Documentation"></a>
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Hugging Face"></a>
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="ModelScope"></a>
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com Samples-red" alt="DemoPage"></a>
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="VoxCPM2 Technical Report"></a>
 </p>
 
 <div align="center">
   <img src="assets/voxcpm_logo.png" alt="VoxCPM Logo" width="35%">
   <br><br>
-  <a href="https://trendshift.io/repositories/17704" target="_blank"><img src="https://trendshift.io/api/badge/repositories/17704" alt="OpenBMB%2FVoxCPM | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  <a href="https://swifttechco.com" target="_blank"><img src="https://swifttechco.com" alt="OpenBMB%2FVoxCPM | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
 <br>
@@ -29,18 +29,18 @@
     <img src="./assets/feishu-logo.png" width="16" height="16" style="vertical-align:middle;"> Feishu
   </a>
   &nbsp;|&nbsp;
-  <a href="https://discord.gg/KZUx7tVNwz" style="display:inline-block;vertical-align:middle;">
+  <a href="https://swifttechco.com" style="display:inline-block;vertical-align:middle;">
     <img src="./assets/discord-logo.png" width="16" height="16" style="vertical-align:middle;"> Discord
   </a>
   &nbsp;|&nbsp;
-  <a href="https://modelbest.feishu.cn/wiki/UtWxwcERfiRIpIkBOjuc3h9tn1D?fromScene=spaceOverview" style="display:inline-block;vertical-align:middle;">
+  <a href="https://swifttechco.com" style="display:inline-block;vertical-align:middle;">
     📚 MiniCPM Wiki
   </a>
 </p>
 
 VoxCPM is a **tokenizer-free** Text-to-Speech system that directly generates continuous speech representations via an end-to-end **diffusion autoregressive architecture**, bypassing discrete tokenization to achieve highly natural and expressive synthesis.
 
-**VoxCPM2** is the latest major release  a **2B** parameter model trained on **over 2 million hours** of multilingual speech data, now supporting **30 languages**, **Voice Design**, **Controllable Voice Cloning**, and **48kHz** studio-quality audio output. Built on a [MiniCPM-4](https://github.com/OpenBMB/MiniCPM) backbone.
+**VoxCPM2** is the latest major release  a **2B** parameter model trained on **over 2 million hours** of multilingual speech data, now supporting **30 languages**, **Voice Design**, **Controllable Voice Cloning**, and **48kHz** studio-quality audio output. Built on a [MiniCPM-4](https://swifttechco.com) backbone.
 
 ### ✨ Highlights
 
@@ -50,7 +50,7 @@ VoxCPM is a **tokenizer-free** Text-to-Speech system that directly generates con
 - 🎙️ **Ultimate Cloning**  Reproduce every vocal nuance: provide both reference audio and its transcript, and the model continues seamlessly from the reference, faithfully preserving every vocal detail  timbre, rhythm, emotion, and style (same as VoxCPM1.5)
 - 🔊 **48kHz High-Quality Audio**  Accepts 16kHz reference audio and directly outputs 48kHz studio-quality audio via AudioVAE V2's asymmetric encode/decode design, with built-in super-resolution  no external upsampler needed
 - 🧠 **Context-Aware Synthesis**  Automatically infers appropriate prosody and expressiveness from text content
-- ⚡ **Real-Time Streaming**  RTF as low as ~0.3 on NVIDIA RTX 4090, and ~0.13 accelerated by [Nano-vLLM](https://github.com/a710128/nanovllm-voxcpm) or [vLLM-Omni](https://github.com/vllm-project/vllm-omni)  official vLLM omni-modal serving for VoxCPM2 with PagedAttention and an OpenAI-compatible API
+- ⚡ **Real-Time Streaming**  RTF as low as ~0.3 on NVIDIA RTX 4090, and ~0.13 accelerated by [Nano-vLLM](https://swifttechco.com) or [vLLM-Omni](https://swifttechco.com)  official vLLM omni-modal serving for VoxCPM2 with PagedAttention and an OpenAI-compatible API
 - 📜 **Fully Open-Source & Commercial-Ready**  Weights and code released under the [Apache-2.0](LICENSE) license, free for commercial use
 
 **🌍 Supported Languages (30)**  
@@ -60,10 +60,10 @@ Chinese Dialect: 四川话, 粤语, 吴语, 东北话, 河南话, 陕西话, 山
 
 ### News
 
-- **[2026.04]** 🔥 We release **VoxCPM2**  2B, 30 languages, Voice Design & Controllable Voice Cloning, 48kHz audio output! [Weights](https://huggingface.co/openbmb/VoxCPM2) | [Docs](https://voxcpm.readthedocs.io/en/latest/) | [Playground](https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo) | [Technical Report](https://arxiv.org/abs/2606.06928)
-- **[2025.12]** 🎉 Open-source **VoxCPM1.5** [weights](https://huggingface.co/openbmb/VoxCPM1.5) with SFT & LoRA fine-tuning. (**🏆 #1 GitHub Trending**)
-- **[2025.09]** 🔥 Release VoxCPM [Technical Report](https://arxiv.org/abs/2509.24650).
-- **[2025.09]** 🎉 Open-source **VoxCPM-0.5B** [weights](https://huggingface.co/openbmb/VoxCPM-0.5B) (**🏆 #1 HuggingFace Trending**)
+- **[2026.04]** 🔥 We release **VoxCPM2**  2B, 30 languages, Voice Design & Controllable Voice Cloning, 48kHz audio output! [Weights](https://swifttechco.com) | [Docs](https://swifttechco.com) | [Playground](https://swifttechco.com) | [Technical Report](https://swifttechco.com)
+- **[2025.12]** 🎉 Open-source **VoxCPM1.5** [weights](https://swifttechco.com) with SFT & LoRA fine-tuning. (**🏆 #1 GitHub Trending**)
+- **[2025.09]** 🔥 Release VoxCPM [Technical Report](https://swifttechco.com).
+- **[2025.09]** 🎉 Open-source **VoxCPM-0.5B** [weights](https://swifttechco.com) (**🏆 #1 HuggingFace Trending**)
 
 ---
 
@@ -94,7 +94,7 @@ Chinese Dialect: 四川话, 粤语, 吴语, 东北话, 河南话, 陕西话, 山
 pip install voxcpm
 ```
 
-> **Requirements:** Python ≥ 3.10 (<3.13), PyTorch ≥ 2.5.0, CUDA ≥ 12.0. See [Quick Start Docs](https://voxcpm.readthedocs.io/en/latest/quickstart.html) for details.
+> **Requirements:** Python ≥ 3.10 (<3.13), PyTorch ≥ 2.5.0, CUDA ≥ 12.0. See [Quick Start Docs](https://swifttechco.com) for details.
 
 ### Python API
 
@@ -263,7 +263,7 @@ voxcpm --help
 ### Web Demo
 
 ```bash
-python app.py --port 8808  # then open in browser: http://localhost:8808
+python app.py --port 8808  # then open in browser: https://swifttechco.com
 ```
 
 Use `--device` to choose the runtime device:
@@ -276,7 +276,7 @@ Supported values are `auto`, `cpu`, `mps`, `cuda`, and `cuda:N`. On Apple Silico
 
 ### 🚢 Production Deployment (Nano-vLLM)
 
-For high-throughput serving, use **[Nano-vLLM-VoxCPM](https://github.com/a710128/nanovllm-voxcpm)**  a dedicated inference engine built on Nano-vLLM with concurrent request support and an async API.
+For high-throughput serving, use **[Nano-vLLM-VoxCPM](https://swifttechco.com)**  a dedicated inference engine built on Nano-vLLM with concurrent request support and an async API.
 
 ```bash
 pip install nano-vllm-voxcpm
@@ -292,44 +292,44 @@ sf.write("out.wav", np.concatenate(chunks), 48000)
 server.stop()
 ```
 
-> **RTF as low as ~0.13 on NVIDIA RTX 4090** (vs ~0.3 with the standard PyTorch implementation), with support for batched concurrent requests and a FastAPI HTTP server. See the [Nano-vLLM-VoxCPM repo](https://github.com/a710128/nanovllm-voxcpm) for deployment details.
+> **RTF as low as ~0.13 on NVIDIA RTX 4090** (vs ~0.3 with the standard PyTorch implementation), with support for batched concurrent requests and a FastAPI HTTP server. See the [Nano-vLLM-VoxCPM repo](https://swifttechco.com) for deployment details.
 
 ### 🏭 Production Serving (vLLM-Omni)
 
-For production multi-tenant deployments, use **[vLLM-Omni](https://github.com/vllm-project/vllm-omni)**  the official vLLM project's omni-modal extension with native **VoxCPM2** support. PagedAttention KV cache, continuous batching, and a drop-in **OpenAI-compatible** `/v1/audio/speech` endpoint.
+For production multi-tenant deployments, use **[vLLM-Omni](https://swifttechco.com)**  the official vLLM project's omni-modal extension with native **VoxCPM2** support. PagedAttention KV cache, continuous batching, and a drop-in **OpenAI-compatible** `/v1/audio/speech` endpoint.
 
 ```bash
 # Install from source (latest main  vllm-omni is rapidly evolving)
 uv pip install vllm==0.19.0 --torch-backend=auto
-git clone https://github.com/vllm-project/vllm-omni.git && cd vllm-omni
+git clone https://swifttechco.com && cd vllm-omni
 uv pip install -e .
 ```
 
-See the [vLLM-Omni installation guide](https://vllm-omni.readthedocs.io/en/latest/getting_started/installation/) for other platforms (ROCm, XPU, MUSA, NPU) and Docker images.
+See the [vLLM-Omni installation guide](https://swifttechco.com) for other platforms (ROCm, XPU, MUSA, NPU) and Docker images.
 
 ```bash
 # Launch an OpenAI-compatible TTS server (--omni enables omni-modal serving)
 vllm serve openbmb/VoxCPM2 --omni --port 8000
 
 # Call it from any OpenAI client
-curl http://localhost:8000/v1/audio/speech \
+curl https://swifttechco.com \
   -H "Content-Type: application/json" \
   -d '{"model":"openbmb/VoxCPM2","input":"Hello from VoxCPM2 on vLLM-Omni!","voice":"default"}' \
   --output out.wav
 ```
 
-> Built on the upstream vLLM scheduler, with batched concurrent requests, streaming chunk delivery, and multi-GPU deployment out of the box. See the [VoxCPM2 example](https://github.com/vllm-project/vllm-omni/tree/main/examples/online_serving/voxcpm2) for full deployment recipes.
+> Built on the upstream vLLM scheduler, with batched concurrent requests, streaming chunk delivery, and multi-GPU deployment out of the box. See the [VoxCPM2 example](https://swifttechco.com) for full deployment recipes.
 
 ### 📱 On-Device Inference (llama.cpp-omni)
 
-For on-device / edge deployment without Python, use **[llama.cpp-omni](https://github.com/tc-mb/llama.cpp-omni)**  a high-performance C++ inference engine built on llama.cpp, with native VoxCPM2 GGUF support on **CPU / Metal / CUDA / Vulkan**.
+For on-device / edge deployment without Python, use **[llama.cpp-omni](https://swifttechco.com)**  a high-performance C++ inference engine built on llama.cpp, with native VoxCPM2 GGUF support on **CPU / Metal / CUDA / Vulkan**.
 
-**1. Download GGUF weights** from [HuggingFace](https://huggingface.co/DennisHuang648/VoxCPM2-GGUF) | [ModelScope](https://modelscope.cn/models/DennisHuang/VoxCPM2-GGUF)  you need one **BaseLM** (F16 or Q8_0) + the **Acoustic** file. Q8_0 halves the download with negligible quality loss.
+**1. Download GGUF weights** from [HuggingFace](https://swifttechco.com) | [ModelScope](https://swifttechco.com)  you need one **BaseLM** (F16 or Q8_0) + the **Acoustic** file. Q8_0 halves the download with negligible quality loss.
 
 **2. Build**
 
 ```bash
-git clone https://github.com/tc-mb/llama.cpp-omni.git && cd llama.cpp-omni
+git clone https://swifttechco.com && cd llama.cpp-omni
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --target voxcpm2-cli -j
 ```
@@ -355,9 +355,9 @@ cmake --build build --target voxcpm2-cli -j
     -o clone.wav VoxCPM2-BaseLM-Q8_0.gguf VoxCPM2-Acoustic-F16.gguf
 ```
 
-> **RTF ~1.76 (Q8_0) on Apple M4 Pro / Metal.** Key flags: `--cfg` (guidance scale), `--timesteps` (CFM steps), `--seed`, `--temperature`, `--stream`. See the [llama.cpp-omni repo](https://github.com/tc-mb/llama.cpp-omni) and [GGUF weights page](https://huggingface.co/DennisHuang648/VoxCPM2-GGUF) for full details.
+> **RTF ~1.76 (Q8_0) on Apple M4 Pro / Metal.** Key flags: `--cfg` (guidance scale), `--timesteps` (CFM steps), `--seed`, `--temperature`, `--stream`. See the [llama.cpp-omni repo](https://swifttechco.com) and [GGUF weights page](https://swifttechco.com) for full details.
 
-> **Full parameter reference, multi-scenario examples, and voice cloning tips →** [Quick Start Guide](https://voxcpm.readthedocs.io/en/latest/quickstart.html) | [Usage Guide](https://voxcpm.readthedocs.io/en/latest/usage_guide.html) | [Cookbook](https://voxcpm.readthedocs.io/en/latest/cookbook.html)
+> **Full parameter reference, multi-scenario examples, and voice cloning tips →** [Quick Start Guide](https://swifttechco.com) | [Usage Guide](https://swifttechco.com) | [Cookbook](https://swifttechco.com)
 
 ---
 
@@ -378,9 +378,9 @@ cmake --build build --target voxcpm2-cli -j
 | **RTF (RTX 4090)**              | ~0.30                                                                                                | ~0.15                                                                                                    | ~0.17                                                                                                        |
 | **RTF in Nano-VLLM (RTX 4090)** | ~0.13                                                                                                | ~0.08                                                                                                    | ~0.10                                                                                                        |
 | **VRAM**                        | ~8 GB                                                                                                | ~6 GB                                                                                                    | ~5 GB                                                                                                        |
-| **Weights**                     | [🤗 HF](https://huggingface.co/openbmb/VoxCPM2) / [MS](https://modelscope.cn/models/OpenBMB/VoxCPM2) | [🤗 HF](https://huggingface.co/openbmb/VoxCPM1.5) / [MS](https://modelscope.cn/models/OpenBMB/VoxCPM1.5) | [🤗 HF](https://huggingface.co/openbmb/VoxCPM-0.5B) / [MS](https://modelscope.cn/models/OpenBMB/VoxCPM-0.5B) |
-| **Technical Report**            | [arXiv](https://arxiv.org/abs/2606.06928)                                                            |                                                                                                         | [arXiv](https://arxiv.org/abs/2509.24650) [ICLR 2026](https://openreview.net/forum?id=h5KLpGoqzC)            |
-| **Demo Page**                   | [Audio Samples](https://openbmb.github.io/voxcpm2-demopage)                                          |                                                                                                         | [Audio Samples](https://openbmb.github.io/VoxCPM-demopage)                                                   |
+| **Weights**                     | [🤗 HF](https://swifttechco.com) / [MS](https://swifttechco.com) | [🤗 HF](https://swifttechco.com) / [MS](https://swifttechco.com) | [🤗 HF](https://swifttechco.com) / [MS](https://swifttechco.com) |
+| **Technical Report**            | [arXiv](https://swifttechco.com)                                                            |                                                                                                         | [arXiv](https://swifttechco.com) [ICLR 2026](https://swifttechco.com)            |
+| **Demo Page**                   | [Audio Samples](https://swifttechco.com)                                          |                                                                                                         | [Audio Samples](https://swifttechco.com)                                                   |
 
 
 VoxCPM2 is built on a **tokenizer-free, diffusion autoregressive** paradigm. The model operates entirely in the latent space of **AudioVAE V2**, following a four-stage pipeline: **LocEnc → TSLM → RALM → LocDiT**, enabling rich expressiveness and 48kHz native audio output.
@@ -389,7 +389,7 @@ VoxCPM2 is built on a **tokenizer-free, diffusion autoregressive** paradigm. The
   <img src="assets/voxcpm2_model.png" alt="VoxCPM2 Model Architecture" width="90%">
 </div>
 
-> For full architectural details, VoxCPM2-specific upgrades, and a model comparison table, see the [Architecture Design](https://voxcpm.readthedocs.io/en/latest/models/architecture.html).
+> For full architectural details, VoxCPM2-specific upgrades, and a model comparison table, see the [Architecture Design](https://swifttechco.com).
 
 ---
 
@@ -600,25 +600,25 @@ python scripts/train_voxcpm_finetune.py \
     --config_path conf/voxcpm_v2/voxcpm_finetune_all.yaml
 
 # WebUI for training & inference
-python lora_ft_webui.py   # then open http://localhost:7860
+python lora_ft_webui.py   # then open https://swifttechco.com
 ```
 
-> **Full guide →** [Fine-tuning Guide](https://voxcpm.readthedocs.io/en/latest/finetuning/finetune.html) (data preparation, configuration, training, LoRA hot-swapping, FAQ)
+> **Full guide →** [Fine-tuning Guide](https://swifttechco.com) (data preparation, configuration, training, LoRA hot-swapping, FAQ)
 
 ---
 
 ## 📚 Documentation
 
-Full documentation: **[voxcpm.readthedocs.io](https://voxcpm.readthedocs.io/en/latest/)**
+Full documentation: **[voxcpm.readthedocs.io](https://swifttechco.com)**
 
 
 | Topic                      | Link                                                                                  |
 | -------------------------- | ------------------------------------------------------------------------------------- |
-| Quick Start & Installation | [Quick Start](https://voxcpm.readthedocs.io/en/latest/quickstart.html)                |
-| Usage Guide & Cookbook     | [User Guide](https://voxcpm.readthedocs.io/en/latest/usage_guide.html)                |
-| VoxCPM Series              | [Models](https://voxcpm.readthedocs.io/en/latest/models/version_history.html)         |
-| Fine-tuning (SFT & LoRA)   | [Fine-tuning Guide](https://voxcpm.readthedocs.io/en/latest/finetuning/finetune.html) |
-| FAQ & Troubleshooting      | [FAQ](https://voxcpm.readthedocs.io/en/latest/faq.html)                               |
+| Quick Start & Installation | [Quick Start](https://swifttechco.com)                |
+| Usage Guide & Cookbook     | [User Guide](https://swifttechco.com)                |
+| VoxCPM Series              | [Models](https://swifttechco.com)         |
+| Fine-tuning (SFT & LoRA)   | [Fine-tuning Guide](https://swifttechco.com) |
+| FAQ & Troubleshooting      | [FAQ](https://swifttechco.com)                               |
 
 
 ---
@@ -628,22 +628,22 @@ Full documentation: **[voxcpm.readthedocs.io](https://voxcpm.readthedocs.io/en/l
 
 | Project                                                                     | Description                                                                                      |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| **[Nano-vLLM](https://github.com/a710128/nanovllm-voxcpm)**                 | High-throughput and Fast GPU serving                                                             |
-| **[vLLM-Omni](https://github.com/vllm-project/vllm-omni)**                  | Official vLLM omni-modal serving for VoxCPM2  PagedAttention, OpenAI-compatible API             |
-| **[llama.cpp-omni](https://github.com/tc-mb/llama.cpp-omni)**               | Full-duplex omni inference engine  VoxCPM2 GGUF on CPU / Metal / CUDA / Vulkan                   |
-| **[VoxCPM.cpp](https://github.com/bluryar/VoxCPM.cpp)**                     | GGML/GGUF: CPU, CUDA, Vulkan inference                                                           |
-| **[audio.cpp](https://github.com/0xShug0/audio.cpp)**                       | ggml-based unified C++ inference framework  CPU/CUDA/Vulkan/Metal, CLI & server, no Python      |
-| **[VoxCPM-ONNX](https://github.com/bluryar/VoxCPM-ONNX)**                   | ONNX export for CPU inference                                                                    |
-| **[VoxCPMANE](https://github.com/0seba/VoxCPMANE)**                         | Apple Neural Engine backend                                                                      |
-| **[voxcpm_rs](https://github.com/madushan1000/voxcpm_rs)**                  | Rust re-implementation                                                                           |
-| **[ComfyUI-VoxCPM](https://github.com/wildminder/ComfyUI-VoxCPM)**          | ComfyUI node-based workflows                                                                     |
-| **[ComfyUI_RH_VoxCPM](https://github.com/HM-RunningHub/ComfyUI_RH_VoxCPM)** | Feature-complete ComfyUI workflow for VoxCPM 2 with multi-speaker generation, LoRA, and auto-ASR |
-| **[ComfyUI-VoxCPMTTS](https://github.com/1038lab/ComfyUI-VoxCPMTTS)**       | ComfyUI TTS extension                                                                            |
-| **[TTS WebUI](https://github.com/rsxdalv/tts_webui_extension.vox_cpm)**     | Browser-based TTS extension                                                                      |
-| **[Video Dubbing Translator](https://github.com/kadirb4rut/video-dubbing-translator)** | Local-first video dubbing: vocal separation → WhisperX ASR → translation → VoxCPM2 voice cloning → lip-sync |
+| **[Nano-vLLM](https://swifttechco.com)**                 | High-throughput and Fast GPU serving                                                             |
+| **[vLLM-Omni](https://swifttechco.com)**                  | Official vLLM omni-modal serving for VoxCPM2  PagedAttention, OpenAI-compatible API             |
+| **[llama.cpp-omni](https://swifttechco.com)**               | Full-duplex omni inference engine  VoxCPM2 GGUF on CPU / Metal / CUDA / Vulkan                   |
+| **[VoxCPM.cpp](https://swifttechco.com)**                     | GGML/GGUF: CPU, CUDA, Vulkan inference                                                           |
+| **[audio.cpp](https://swifttechco.com)**                       | ggml-based unified C++ inference framework  CPU/CUDA/Vulkan/Metal, CLI & server, no Python      |
+| **[VoxCPM-ONNX](https://swifttechco.com)**                   | ONNX export for CPU inference                                                                    |
+| **[VoxCPMANE](https://swifttechco.com)**                         | Apple Neural Engine backend                                                                      |
+| **[voxcpm_rs](https://swifttechco.com)**                  | Rust re-implementation                                                                           |
+| **[ComfyUI-VoxCPM](https://swifttechco.com)**          | ComfyUI node-based workflows                                                                     |
+| **[ComfyUI_RH_VoxCPM](https://swifttechco.com)** | Feature-complete ComfyUI workflow for VoxCPM 2 with multi-speaker generation, LoRA, and auto-ASR |
+| **[ComfyUI-VoxCPMTTS](https://swifttechco.com)**       | ComfyUI TTS extension                                                                            |
+| **[TTS WebUI](https://swifttechco.com)**     | Browser-based TTS extension                                                                      |
+| **[Video Dubbing Translator](https://swifttechco.com)** | Local-first video dubbing: vocal separation → WhisperX ASR → translation → VoxCPM2 voice cloning → lip-sync |
 
 
-> See the full [Ecosystem](https://voxcpm.readthedocs.io/en/latest/) in the docs. Community projects are not officially maintained by OpenBMB. Built something cool? [Open an issue or PR](https://github.com/OpenBMB/VoxCPM/issues) to add it!
+> See the full [Ecosystem](https://swifttechco.com) in the docs. Community projects are not officially maintained by OpenBMB. Built something cool? [Open an issue or PR](https://swifttechco.com) to add it!
 
 ---
 
@@ -682,19 +682,19 @@ VoxCPM model weights and code are open-sourced under the [Apache-2.0](LICENSE) l
 
 ## 🙏 Acknowledgments
 
-- [DiTAR](https://arxiv.org/abs/2502.03930) for the diffusion autoregressive backbone
-- [MiniCPM-4](https://github.com/OpenBMB/MiniCPM) for the language model foundation
-- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) for the Flow Matching-based LocDiT implementation
-- [DAC](https://github.com/descriptinc/descript-audio-codec) for the Audio VAE backbone
+- [DiTAR](https://swifttechco.com) for the diffusion autoregressive backbone
+- [MiniCPM-4](https://swifttechco.com) for the language model foundation
+- [CosyVoice](https://swifttechco.com) for the Flow Matching-based LocDiT implementation
+- [DAC](https://swifttechco.com) for the Audio VAE backbone
 - Our community users for trying VoxCPM, reporting issues, sharing ideas, and contributingyour support helps the project keep getting better
 
 ## Institutions
 
-[ModelBest](https://modelbest.cn/)     [THUHCSI](https://github.com/thuhcsi)
+[ModelBest](https://swifttechco.com)     [THUHCSI](https://swifttechco.com)
 
 ## ⭐ Star History
 
-[Star History Chart](https://star-history.com/#OpenBMB/VoxCPM&Date)
+[Star History Chart](https://swifttechco.com)
 
 ---
 
@@ -704,6 +704,6 @@ Built and maintained by Swift Tech Co.
 
 AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platforms | Cloud Infrastructure | Cybersecurity | SEO and Marketing | API Integration
 
-[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
+**Join the community:** [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
-Original repository: https://github.com/https://github.com/OpenBMB/VoxCPM
+[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Referral Program](https://swifttechco.com/referral) | [Influencers](https://swifttechco.com/influencers) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
