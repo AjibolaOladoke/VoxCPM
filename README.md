@@ -6,7 +6,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![VoxCPM](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![VoxCPM](images/preview.png)](https://github.com/Swift-Tech-Co/VoxCPM)
 
 ## Contents
 
@@ -146,15 +146,11 @@ wav = np.concatenate(chunks)
 sf.write("streaming.wav", wav, model.tts_model.sample_rate)
 ```
 
-
 ### CLI Usage
 
 ```bash
 
-
-
 ## 📦 Models & Versions
-
 
 |                                 | **VoxCPM2**                                                                                          | **VoxCPM1.5**                                                                                            | **VoxCPM-0.5B**                                                                                              |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -174,7 +170,6 @@ sf.write("streaming.wav", wav, model.tts_model.sample_rate)
 | **Technical Report**            | arXiv                                                            |                                                                                                         | arXiv ICLR 2026            |
 | **Demo Page**                   | Audio Samples                                          |                                                                                                         | Audio Samples                                                   |
 
-
 VoxCPM2 is built on a **tokenizer-free, diffusion autoregressive** paradigm. The model operates entirely in the latent space of **AudioVAE V2**, following a four-stage pipeline: **LocEnc → TSLM → RALM → LocDiT**, enabling rich expressiveness and 48kHz native audio output.
 
 <div align="center">
@@ -192,7 +187,6 @@ VoxCPM2 achieves state-of-the-art or comparable results on public zero-shot and 
 ### Seed-TTS-eval
 
 **Seed-TTS-eval WER(⬇)&SIM(⬆) Results (click to expand)**
-
 
 | Model             | Parameters | Open-Source | test-EN |        | test-ZH |        | test-Hard |        |
 | ----------------- | ---------- | ----------- | ------- | ------ | ------- | ------ | --------- | ------ |
@@ -224,11 +218,9 @@ VoxCPM2 achieves state-of-the-art or comparable results on public zero-shot and 
 | LongCat-Audio-DiT | 3.5B       | ✅           | 1.50    | 78.6   | 1.09    | 81.8   | 6.04      | 79.7   |
 | **VoxCPM2**       | 2B         | ✅           | 1.84    | 75.3   | 0.97    | 79.5   | 8.13      | 75.3   |
 
-
 ### CV3-eval
 
 **CV3-eval Multilingual WER/CER(⬇) Results (click to expand)**
-
 
 | Model           | zh   | en   | hard-zh | hard-en | ja   | ko   | de   | es   | fr   | it   | ru   |
 | --------------- | ---- | ---- | ------- | ------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -237,11 +229,9 @@ VoxCPM2 achieves state-of-the-art or comparable results on public zero-shot and 
 | Fish Audio S2   | 2.65 | 2.43 | 9.10    | 4.40    | 3.96 | 2.76 | 2.22 | 2.00 | 6.26 | 2.04 | 2.78 |
 | **VoxCPM2**     | 3.65 | 5.00 | 8.55    | 8.48    | 5.96 | 5.69 | 4.77 | 3.80 | 9.85 | 4.25 | 5.21 |
 
-
 ### MiniMax-Multilingual-Test
 
 **Minimax-MLS-test WER(⬇) Results (click to expand)**
-
 
 | Language   | Minimax   | ElevenLabs | Qwen3-TTS | FishAudio S2 | **VoxCPM2** |
 | ---------- | --------- | ---------- | --------- | ------------ | ----------- |
@@ -270,9 +260,7 @@ VoxCPM2 achieves state-of-the-art or comparable results on public zero-shot and 
 | Ukrainian  | 1.082     | **0.997**  |          | 2.300        | 6.316       |
 | Vietnamese | **0.88**  | 73.415     |          | 7.410        | 3.307       |
 
-
 **Minimax-MLS-test SIM(⬆) Results (click to expand)**
-
 
 | Language   | Minimax  | ElevenLabs | Qwen3-TTS | FishAudio S2 | **VoxCPM2** |
 | ---------- | -------- | ---------- | --------- | ------------ | ----------- |
@@ -301,13 +289,11 @@ VoxCPM2 achieves state-of-the-art or comparable results on public zero-shot and 
 | Ukrainian  | 73.0     | 64.7       |          | 74.7         | **79.8**    |
 | Vietnamese | 74.3     | 36.9       |          | 74.0         | **80.6**    |
 
-
 ### Internal 30-Language ASR Benchmark
 
 We additionally run an internal multilingual intelligibility benchmark with **30 languages × 500 samples**. ASR transcription is evaluated via **Gemini 3.1 Flash Lite API**.
 
 **Internal 30-Language ASR Benchmark (click to expand)**
-
 
 | Language               | Metric | VoxCPM2   | Fish S2-Pro |
 | ---------------------- | ------ | --------- | ----------- |
@@ -343,11 +329,9 @@ We additionally run an internal multilingual intelligibility benchmark with **30
 | zh (Chinese)           | CER    | 0.92%     | 1.02%       |
 | Average (30 languages) |        | **1.68%** | -           |
 
-
 ### InstructTTSEval
 
 **Instruction-Guided Voice Design Results (click to expand)**
-
 
 | Model                  | InstructTTSEval-ZH |          |          | InstructTTSEval-EN |          |          |
 | ---------------------- | ------------------ | -------- | -------- | ------------------ | -------- | -------- |
@@ -362,7 +346,6 @@ We additionally run an internal multilingual intelligibility benchmark with **30
 | Mimo-Audio-7B-Instruct | 75.7               | 74.3     | 61.5     | 80.6               | 77.6     | 59.5     |
 | Qwen3TTS-12Hz-1.7B-VD  | **85.2**           | **81.1** | **65.1** | 82.9               | 82.4     | 68.4     |
 | **VoxCPM2**            | **85.2**           | 71.5     | 60.8     | **84.2**           | **83.2** | **71.4** |
-
 
 ---
 
@@ -380,7 +363,7 @@ python scripts/train_voxcpm_finetune.py \
     --config_path conf/voxcpm_v2/voxcpm_finetune_all.yaml
 
 # WebUI for training & inference
-python lora_ft_webui.py   # then open https://swifttechco.com
+python lora_ft_webui.py   # then open https://github.com/Swift-Tech-Co/VoxCPM
 ```
 
 > **Full guide →** Fine-tuning Guide (data preparation, configuration, training, LoRA hot-swapping, FAQ)
@@ -391,7 +374,6 @@ python lora_ft_webui.py   # then open https://swifttechco.com
 
 Full documentation: **voxcpm.readthedocs.io**
 
-
 | Topic                      | Link                                                                                  |
 | -------------------------- | ------------------------------------------------------------------------------------- |
 | Quick Start & Installation | Quick Start                |
@@ -400,11 +382,9 @@ Full documentation: **voxcpm.readthedocs.io**
 | Fine-tuning (SFT & LoRA)   | Fine-tuning Guide |
 | FAQ & Troubleshooting      | FAQ                               |
 
-
 ---
 
 ## 🌟 Ecosystem & Community
-
 
 | Project                                                                     | Description                                                                                      |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -421,7 +401,6 @@ Full documentation: **voxcpm.readthedocs.io**
 | **ComfyUI-VoxCPMTTS**       | ComfyUI TTS extension                                                                            |
 | **TTS WebUI**     | Browser-based TTS extension                                                                      |
 | **Video Dubbing Translator** | Local-first video dubbing: vocal separation → WhisperX ASR → translation → VoxCPM2 voice cloning → lip-sync |
-
 
 ---
 
@@ -488,13 +467,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/VoxCPM
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
